@@ -1,0 +1,8 @@
+
+compiler.path={build.compiler_path}
+compiler.c.cmd=arm-eabi-gcc
+compiler.cpp.cmd=arm-eabi-g++
+compiler.c.elf.cmd=arm-eabi-g++
+compiler.ar.cmd=arm-eabi-ar
+compiler.objcopy.cmd=arm-eabi-objcopy
+compiler.size.cmd=arm-eabi-size
