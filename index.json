@@ -1,0 +1,31 @@
+{
+    "type":"SoC",
+    "name":"W800",
+    "title": "winnermicro W800 WiFi SoC",
+    "description":"winnermicro XT804 WiFi SoC",
+    "Core": {
+        "type":"XT804",
+        "Freq":240,
+        "DMIPS": 1177,
+        "CoreMark": 2778
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.winnermicro.com/html/1/156/158/558.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/W800.git"
+    },
+    "version":"1.0.0",
+    "series":["W800"],
+    "package":["TFBGA240","UFBGA176","LQFP176","LQFP144","LQFP100"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
