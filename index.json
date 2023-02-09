@@ -21,7 +21,9 @@
     "version":"1.0.0",
     "series":["W801","W800"],
     "package":["QFN56","QFN32"],
-    "peripheral": ["WiFi","BLE","ADC","UART","SPI","IIC"],
+    "peripheral": ["Wi-Fi","BLE","ADC","UART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [3.3,2.5],
     "ESD": {
         "HBM": 4000,
         "CDM": 500
@@ -29,8 +31,7 @@
     "keywords": [
         "XT804",
         "winnermicro","40nm",
-        "WiFi","ADC","I2C","RTC","SPI","UART",
-        "3.6V","2.7V"
+        "Wi-Fi","BLE","ADC","I2C","RTC","SPI","UART"
     ]
 }
 

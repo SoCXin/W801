@@ -67,4 +67,6 @@ W801为QFN56封装(6mmx6mm)，和[ESP32-S3](https://github.com/SoCXin/ESP32S3)�
 
 W801不仅将W800原有的UART、Touch Sensor、ADC等接口的数量增加，而且新增了主/从SPI接口、PSRAM扩展接口、LCD控制器接口和7816接口。
 
+延伸产品包括[W601](https://github.com/SoCXin/W601)和[W806](https://github.com/SoCXin/W806)
+
 ## [www.SoC.xin](http://www.SoC.Xin)
