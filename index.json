@@ -1,31 +1,36 @@
 {
     "type":"SoC",
-    "name":"W800",
-    "title": "winnermicro W800 WiFi SoC",
-    "description":"winnermicro XT804 WiFi SoC",
+    "name":"W801",
+    "title": "winnermicro W801 SoC",
+    "description":"winnermicro WiFi/BT SoC",
     "Core": {
-        "type":"XT804",
-        "Freq":240,
-        "DMIPS": 1177,
-        "CoreMark": 2778
+        "CoreNum": 1,
+        "Core":"XT804",
+        "Fmax":240,
+        "DMIPS": 250,
+        "CoreMark": 385
     },
     "manufacturer": {
-        "vendor":"ST",
-        "homepage":"https://www.winnermicro.com/html/1/156/158/558.html"
+        "vendor":"winnermicro",
+        "homepage":"http://www.winnermicro.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SoCXin/W800.git"
+        "url": "https://github.com/SoCXin/W801.git"
     },
     "version":"1.0.0",
-    "series":["W800"],
-    "package":["TFBGA240","UFBGA176","LQFP176","LQFP144","LQFP100"],
-    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "series":["W801","W800"],
+    "package":["QFN56","QFN32"],
+    "peripheral": ["WiFi","BLE","ADC","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
     "keywords": [
-        "dev-platform",
-        "ARM",
-        "Cortex-M",
-        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
-        "3.6V","1.8V"
+        "XT804",
+        "winnermicro","40nm",
+        "WiFi","ADC","I2C","RTC","SPI","UART",
+        "3.6V","2.7V"
     ]
 }
+
